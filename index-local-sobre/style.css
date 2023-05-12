@@ -1,0 +1,162 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-image: url('fundo3.jpg');
+    background-repeat: no-repeat;
+    overflow: hidden;
+    background-size: 2360px 1140px;
+    height: 100vh;
+}
+header {
+    padding: 1.7rem 1rem;
+    backdrop-filter: blur(10px);
+    background-color: transparent;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    max-width: 80%;
+    margin: auto;
+}
+
+.logo {
+    font-size: 1.3rem;
+    font-weight: 800;
+}
+
+.logo h2 {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    padding: 0;
+    background-color: transparent;
+    overflow: hidden;
+}
+
+li {
+    padding: 0rem 1.1rem;
+    float: left;
+}
+
+li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 600;
+    letter-spacing: .7px;
+}
+
+li a:hover {
+    color: #C8363E;
+    transition: all .3s ease-in-out
+}
+.botao-container {
+    display: flex;
+    top: 50%;
+  }
+  .botao {
+    display: inline-block;
+    background-color: transparent;
+    color: #ffffff;
+    margin-right: 10px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+/*Area*/
+#area {
+	background-color: transparent;
+	font-family: Clash Display Variable;
+	font-weight: 900;
+	color: #fff;
+	padding: 250px;
+	height: 100px;
+	display: flex;
+	place-items: center;
+    border-radius: 20px;
+}
+.showcase {
+    padding: 20px auto;
+    padding-left: 630px;
+    margin-top: 260px;
+	width: 500px;
+	display: grid;
+	gap: 10px;
+    border-radius: 20px;
+}
+.showcase > * {
+	background-color: #ffffff;
+    align-items: center;
+	padding: 10px;
+    display: flex;
+    border-radius: 20px;
+    
+}
+/* End demo only */
+@media screen and (min-width: 64em) {
+	.showcase {
+		grid-template-columns: 150px 1fr;
+		grid-template-rows: 50px repeat(2, 1fr) 50px;
+		grid-template-areas:
+			'header header'
+			'sidebar main'
+			'sidebar main'
+			'sidebar footer';
+	}
+	.header {
+		grid-area: header;
+	}
+	.sidebar {
+		grid-area: sidebar;
+	}
+	.main {
+		grid-area: main;
+	}
+	.footer {
+		grid-area: footer;
+	}
+}
+#abacate{
+    background: #ffffff;
+    border-radius: 20px;
+    padding: 50px;
+    margin: 50px;
+    width: 1227px;
+    margin: 10px auto;
+    padding: 10px;
+}
+p{
+  padding: 10px;
+  margin: 10px;
+  size: 14px;
+}
+p.dois{
+    padding: 2px;
+    margin-top: 2px;
+    padding-left: 50%;
+}
+p.tres{
+    padding-left: 55%;
+    margin-top: 20px;
+}
+img{
+    padding-left: 10px;
+}
+iframe{
+    padding: 10px auto;
+    margin: 10px;
+    padding-left: 310px;
+}
+/*Redes*/
